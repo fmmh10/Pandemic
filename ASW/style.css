@@ -1,0 +1,266 @@
+body {
+    background-color: rgb(246, 168, 0);
+    font-family: 'Oswald', sans-serif;
+}
+header {
+    margin-top: 10px;
+}
+#title {
+    margin-left: 40%;
+    margin-top: -140px;
+    font-size: 70px;
+}
+#logo {
+    margin-left: 350px;
+    margin-top: -10px;
+    display: inline;
+}
+
+#logs {
+    float: right;
+    margin-top: -150px;
+    display:block;
+    text-decoration: none;
+    margin-right: 45px;
+}
+#logs > button {
+    border-radius: 10px;
+    border: 2px solid black;
+    color: rgb(246, 168, 0);
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    font-size: 25px;
+}
+
+/* Registo  */
+
+.registo {
+  width: 50%;
+  margin-left: 310px;
+}
+/* Registo */
+
+/* pop up do login */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    /*overflow: auto;*/ /* Enable scroll if needed */
+    background-color: rgb(246, 168, 0); /* Fallback color */
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* pop up do login */
+
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+
+}
+
+#avatar {
+  width: 20%;
+  height: 20%;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 55%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+#avatar {
+  height: 100px;
+  width: 100px;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+.icone {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.turno{
+    font-size: 30px;
+    font-weight: bold;
+}
+.jogador_actual{
+    font-size: 22px;
+}
+.numero_turnos{
+    font-size: 25px;
+    color: firebrick;
+}
+
+#tabela1 th{
+    width: 90px;
+    text-align: center;
+
+}
+#tabela1 td{
+    text-align: center;
+}
+#tabela_cidades th{
+    text-align: center;
+    width: 160px;
+}
+
+#tabela_cidades td{
+    text-align: center;
+}
+#dados_jogadores  #cartas{
+    width: 150px;
+    text-align: center;
+}
+#dados_jogadores #posicao{
+    width: 100px;
+    text-align: center;
+}
+#dados_jogadores #nomes{
+    width: 100px;
+    text-align: center;
+}
+#dados_jogadores td{
+    text-align: center;
+}
+
+.game_over{
+    font-size: 150px;
+    color: firebrick;
+    text-align: center;
+}
+
+
+#lista_jogos .cabecalho{
+    font-weight: bold;
+    text-align: center;
+}
